@@ -1,7 +1,6 @@
 import CategorySection from "../../component/catagory";
 import CourseCard, { CourseCardProp } from "../../component/courseCard";
 import React from "react";
-import Image from "next/image";
 
 export default function Courses() {
   const courses: CourseCardProp[] = [
