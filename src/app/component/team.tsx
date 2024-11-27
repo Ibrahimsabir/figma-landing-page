@@ -10,7 +10,7 @@ export interface TeamProp {
 }
 export default function TeamCard(props:TeamProp){
     return(
-        <div className="flex flex-col items-center gap-y-2">
+        <div className="flex flex-col items-center gap-y-2 ">
             
                 <Image src={props.image} alt={props.teamMem} width={70} height={0} className="h-auto rounded-sm mb-3"/>
             

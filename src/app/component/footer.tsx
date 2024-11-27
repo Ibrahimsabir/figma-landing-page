@@ -1,6 +1,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -32,7 +37,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           {/* Logo */}
           <div className="flex justify-center md:items-start md:justify-start">
-            <Image src={"/images/footerLogo.svg"} alt="footerLogo" width={136} height={40}  className=""/>
+            <Image src={"/images/logo.png"} alt="footerLogo" width={136} height={40}  className=""/>
             
             </div>
 
@@ -93,16 +98,20 @@ export default function Footer() {
           <div className="flex items-center space-x-3">
           <div className="w-full max-w-[736px] h-6 flex justify-end gap-4">
          <Link href={"#"} className="h-6 w-6">
-         <Image src={"/images/Vector.png"} alt="facebook" width={10} height={18}/>
+         <FaFacebookF className="text-xl"/>
+         {/* <Image src={"/images/Vector.png"} alt="facebook" width={10} height={18}/> */}
          </Link>
          <Link href={"#"} className="h-6 w-6">
-         <Image src={"/images/Instagram.png"} alt="instagram" width={24} height={18} />
+         <FaInstagram className="text-xl"/>
+         {/* <Image src={"/images/Instagram.png"} alt="instagram" width={24} height={18} /> */}
          </Link>
          <Link href={"#"} className="h-6 w-6">
-         <Image src={"/images/Linkedin.png"} alt="linkedin" width={18} height={18}/>
+         <FaLinkedin className="text-xl"/>
+         {/* <Image src={"/images/Linkedin.png"} alt="linkedin" width={18} height={18}/> */}
          </Link>
          <Link href={"#"} className="h-6 w-6">
-         <Image src={"/images/Chirya.png"} alt="chirya" width={18} height={20}/>
+         <FaTwitter className="text-xl"/>
+         {/* <Image src={"/images/Chirya.png"} alt="chirya" width={18} height={20}/> */}
          </Link>
         </div>
           </div>

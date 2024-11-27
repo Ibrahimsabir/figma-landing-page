@@ -1,12 +1,12 @@
 import CategorySection from "../../component/catagory";
-import CourseCard, { CourseCardProp } from "../../component/coursename";
+import CourseCard, { CourseCardProp } from "../../component/courseCard";
 import React from "react";
-
+import Image from "next/image";
 
 export default function Courses() {
   const courses: CourseCardProp[] = [
     {
-      image: "/images/course1.svg",
+      image:"/images/course1.jfif",
       category: "Design",
       rating: "5.0",
       courseTitle: "UI/UX Design 201",
@@ -15,7 +15,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/images/course2.svg",
+      image:"/images/course2.jfif",
       category: "Programming",
       rating: "5.0",
       courseTitle: "Introduction to Python",
@@ -24,7 +24,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/images/course3.svg",
+      image:"/images/course3.jfif",
       category: "Business",
       rating: "5.0",
       courseTitle: "Data Analysis for Beginners",
@@ -33,7 +33,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/images/course4.svg",
+      image:"/images/course4.jfif",
       category: "Art",
       rating: "5.0",
       courseTitle: "Art Specialization",
@@ -42,7 +42,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/images/course5.svg",
+      image:"/images/course5.jfif",
       category: "Law",
       rating: "5.0",
       courseTitle: "Rule of Law",
@@ -51,7 +51,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/images/course6.svg",
+      image:"/images/course6.jfif",
       category: "Tech",
       rating: "5.0",
       courseTitle: "Introduction to Webflow",
