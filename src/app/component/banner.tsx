@@ -26,7 +26,7 @@ function Banner() {
       </div>
       <div className="w-full ">
         <Image
-          src={"/images/banner-img.jfif"}
+          src={"/images/Image.png"}
           alt="banner-image"
           width={720}
           height={900}

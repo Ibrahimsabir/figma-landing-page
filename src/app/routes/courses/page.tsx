@@ -5,7 +5,7 @@ import React from "react";
 export default function Courses() {
   const courses: CourseCardProp[] = [
     {
-      image:"/images/course1.jfif",
+      image:"/images/course1.svg",
       category: "Design",
       rating: "5.0",
       courseTitle: "UI/UX Design 201",
@@ -14,7 +14,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image:"/images/course2.jfif",
+      image:"/images/course2.svg",
       category: "Programming",
       rating: "5.0",
       courseTitle: "Introduction to Python",
@@ -23,7 +23,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image:"/images/course3.jfif",
+      image:"/images/course3.svg",
       category: "Business",
       rating: "5.0",
       courseTitle: "Data Analysis for Beginners",
@@ -32,7 +32,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image:"/images/course4.jfif",
+      image:"/images/course4.svg",
       category: "Art",
       rating: "5.0",
       courseTitle: "Art Specialization",
@@ -41,7 +41,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image:"/images/course5.jfif",
+      image:"/images/course5.svg",
       category: "Law",
       rating: "5.0",
       courseTitle: "Rule of Law",
@@ -50,7 +50,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image:"/images/course6.jfif",
+      image:"/images/course6.svg",
       category: "Tech",
       rating: "5.0",
       courseTitle: "Introduction to Webflow",
